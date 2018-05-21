@@ -785,15 +785,6 @@ The first (most recent) post in the list is styled to be bigger than the others 
     display: none;
 }
 
-/* Ghost 1.0 - to be depricated */
-
-.kg-card-markdown {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 920px;
-}
-
 .post-full-content h1,
 .post-full-content h2,
 .post-full-content h3,
@@ -817,11 +808,6 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .post-full-content li p {
     margin: 0;
-}
-
-.post-template .kg-card-markdown > p:first-child{
-    font-size: 1.25em;
-    line-height: 1.5em;
 }
 
 .post-full-content a {
@@ -1827,6 +1813,21 @@ Usage (In Ghost editor):
 
 /* 7.6. Koenig Styles
 /* ---------------------------------------------------------- */
+
+/* For Ghost 1.0 */
+.kg-card-markdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 920px;
+}
+
+.post-template .kg-card-markdown > p:first-child {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+/* ^ .kg-card-markdown will be depricated */
+
 
 .post-template .kg-post > p:first-child {
     font-size: 1.25em;
