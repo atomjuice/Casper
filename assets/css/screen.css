@@ -1837,7 +1837,12 @@ Usage (In Ghost editor):
     max-width: 100%;
 }
 
-img.kg-image--wide {
+/* Preventing full-width image overlap with post image.  */
+.post-full-image + .post-full-content .kg-post *:first-child .kg-image {
+    width: 100%;
+}
+
+.post-full-content .kg-image--wide {
     max-width: 1040px;
 }
 
