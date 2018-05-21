@@ -1833,8 +1833,8 @@ Usage (In Ghost editor):
     align-items: center;
 }
 
-img.kg-image {
-    max-width: 840px;
+.post-full-content .kg-image {
+    max-width: 100%;
 }
 
 img.kg-image--wide {
