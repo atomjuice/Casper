@@ -1867,6 +1867,12 @@ img.kg-image--full + figcaption {
     }
 }
 
+@media (max-width: 500px) {
+    .post-full-content .kg-image--full + figcaption {
+        padding: 0 4vw;
+    }
+}
+
 
 /* 8. Author Template
 /* ---------------------------------------------------------- */
