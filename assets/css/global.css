@@ -485,3 +485,26 @@ h6 {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+/* ==========================================================================
+   Custom Styles
+   ========================================================================== */
+
+.sell-now-block-button {
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff !important;
+    background: #b60000;
+    border-bottom: 3px solid #830404;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 0 10px;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.15);
+    box-shadow: none !important;
+}
+
+.sell-now-block-button:hover {
+    color: #fff;
+    position: relative;
+    top: 2px;
+}
