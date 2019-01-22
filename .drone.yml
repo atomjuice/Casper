@@ -1,0 +1,9 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: setup
+    image: node:lts-alpine
+    commands:
+      - npm install
+      - npm run zip
